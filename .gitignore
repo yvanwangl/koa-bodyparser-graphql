@@ -4,4 +4,5 @@ package-lock.json
 .vscode
 .nyc_output
 coverage
-yarn.locks
+yarn.lock
+yarn-error.log
