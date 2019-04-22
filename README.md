@@ -3,7 +3,7 @@
 Koa body-parser that supports the `application/graphql` MIME type.
 
 ## How does it work?
-`koa-bodyparser-graphql` checks the `Content-Type` header of the request. If the Content-Type is `application/graphql`, it will get the request info and pack it into normal body.
+`koa-bodyparser-graphql` checks the `Content-Type` header of the request. If the Content-Type is `application/graphql`, `koa-bodyparser-graphql` will get the request info and pack it into normal body.
 
 Received request:
 ```graphql
