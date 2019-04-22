@@ -1,0 +1,7 @@
+node_modules
+dist
+package-lock.json
+.vscode
+.nyc_output
+coverage
+yarn.locks

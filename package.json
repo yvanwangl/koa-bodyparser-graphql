@@ -1,0 +1,16 @@
+{
+  "name": "koa-bodyparser-graphql",
+  "version": "0.0.3",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yvanwang",
+  "license": "ISC",
+  "dependencies": {
+    "inflation": "^2.0.0",
+    "koa-bodyparser": "^4.2.1",
+    "raw-body": "^2.4.0"
+  }
+}
