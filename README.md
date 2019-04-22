@@ -8,10 +8,10 @@ Koa body-parser that supports the `application/graphql` MIME type.
 Received request:
 ```graphql
 {
-	books {
-		title
-		author
-	}
+  books {
+    title
+    author
+  }
 }
 ```
 `ctx.request.body` value after the middleware:
@@ -19,10 +19,10 @@ Received request:
 {
   query: {
     {
-	    books {
-		    title
-		    author
-	    }
+      books {
+        title
+        author
+      }
     }
   }
 }
